@@ -43,6 +43,5 @@ Element UI
 
 ### Mocking Data
 ```
-
 my-json-server.typicode.com
 ```
