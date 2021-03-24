@@ -1,34 +1,48 @@
-# cf-vue-intermission
+# cf-intermission VUE.JS
 
-## Project setup
+## Configuration du projet
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compile et recharge à chaud pour le dévelppement
 ```
-npm run serve
+npm start
 ```
 
-### Compiles and minifies for production
+### Pour mettre en production
 ```
 npm run build
 ```
 
-### Run your unit tests
+### Lancer les tests unitaires
 ```
 npm run test:unit
 ```
 
-### Run your end-to-end tests
+### Lancer les tests end-to-end tests
 ```
 npm run test:e2e
 ```
 
-### Lints and fixes files
+### Lints et correction des fichiers
 ```
-npm run lint
+npm run lint -- --fix
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Stack
+```
+Vue.JS
+VueX
+Vue Router
+Vue I18n
+axios
+Javascript
+Element UI
+```
+
+### Mocking Data
+```
+
+my-json-server.typicode.com
+```
