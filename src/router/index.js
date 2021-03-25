@@ -1,8 +1,11 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import SignIn from "../views/SignIn.vue";
-import Dashboard from "../views/Dashboard.vue";
+import Alerts from "../views/Alerts.vue";
+import Ecosystem from "../views/Ecosystem.vue";
+import Specifications from "../views/Specifications.vue";
+import Data from "../views/Data.vue";
+import Settings from "../views/Settings.vue";
 
 Vue.use(VueRouter);
 
@@ -13,14 +16,29 @@ const routes = [
     component: Home,
   },
   {
-    path: "/signin",
-    name: "SignIn",
-    component: SignIn,
+    path: "/alerts",
+    name: "Alerts",
+    component: Alerts,
   },
   {
-    path: "/dashboard",
-    name: "Dashboard",
-    component: Dashboard,
+    path: "/ecosystem",
+    name: "Ecosystem",
+    component: Ecosystem,
+  },
+  {
+    path: "/specifications",
+    name: "Specifications",
+    component: Specifications,
+  },
+  {
+    path: "/data",
+    name: "Data",
+    component: Data,
+  },
+  {
+    path: "/settings",
+    name: "Settings",
+    component: Settings,
   },
 ];
 
