@@ -122,7 +122,6 @@ nav .links a:hover {
 
 nav .links a.router-link-exact-active {
   color: #990525;
-  /* text-decoration: 3px underline; */
 }
 
 nav .links a div {
