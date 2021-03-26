@@ -10,22 +10,52 @@
     </div>
     <ul class="links">
       <li>
-        <router-link to="/">Accueil</router-link>
+        <router-link to="/">
+          <div>
+            <i class="el-icon-s-home"></i>
+          </div>
+          Accueil</router-link
+        >
       </li>
       <li>
-        <router-link to="/alerts">Alertes</router-link>
+        <router-link to="/alerts">
+          <div>
+            <i class="el-icon-message-solid"></i>
+          </div>
+          Alertes</router-link
+        >
       </li>
       <li>
-        <router-link to="/ecosystem">Référentiel</router-link>
+        <router-link to="/ecosystem">
+          <div>
+            <i class="el-icon-s-promotion"></i>
+          </div>
+          Référentiel</router-link
+        >
       </li>
       <li>
-        <router-link to="/specifications">Cahiers des charges</router-link>
+        <router-link to="/specifications">
+          <div>
+            <i class="el-icon-s-platform"></i>
+          </div>
+          Cahiers des charges</router-link
+        >
       </li>
       <li>
-        <router-link to="/data">Données</router-link>
+        <router-link to="/data">
+          <div>
+            <i class="el-icon-s-data"></i>
+          </div>
+          Données</router-link
+        >
       </li>
       <li>
-        <router-link to="/settings">Paramètres</router-link>
+        <router-link to="/settings">
+          <div>
+            <i class="el-icon-s-tools"></i>
+          </div>
+          Paramètres</router-link
+        >
       </li>
     </ul>
     <label for="nav-toggle" class="icon-burger">
@@ -47,7 +77,7 @@ nav {
   left: 0;
   right: 0;
   top: 0;
-  height: 100px;
+  height: 70px;
   padding: 0 5%;
   color: #074fa0;
   background-color: #f1f3f5;
@@ -86,9 +116,19 @@ nav .links a {
   text-decoration: none;
 }
 
+nav .links a:hover {
+  color: #990525;
+}
+
 nav .links a.router-link-exact-active {
-  color: #1c5d41;
-  text-decoration: 3px underline;
+  color: #990525;
+  /* text-decoration: 3px underline; */
+}
+
+nav .links a div {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
 }
 
 #nav-toggle {
